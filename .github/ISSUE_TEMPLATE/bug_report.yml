@@ -1,0 +1,110 @@
+name: Bug report
+description: Report a problem with ChoutesOS
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report a problem.
+
+        Please search [existing issues](https://github.com/ChoutesOS/choutesos/issues) first, and use [Discussions](https://github.com/ChoutesOS/choutesos/discussions) for questions and general help.
+
+        Do not report security vulnerabilities here. Use the [private report form](https://github.com/ChoutesOS/choutesos/security/advisories/new) instead.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - Installer (Calamares)
+        - Boot (bootloader, Plymouth, login screen)
+        - Desktop (KDE Plasma, theme, panel)
+        - Gaming (Steam, Wine, Proton, GameMode)
+        - Graphics driver
+        - Audio or Bluetooth
+        - Networking
+        - Printing
+        - Package manager or system updates
+        - Virtual machine support
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: ChoutesOS version
+      description: Paste the output of `cat /etc/os-release`. If ChoutesOS is not installed yet, give the ISO file name.
+    validations:
+      required: true
+  - type: dropdown
+    id: usage
+    attributes:
+      label: How are you running ChoutesOS?
+      options:
+        - Installed on physical hardware
+        - Installed in a virtual machine
+        - Live ISO on physical hardware
+        - Live ISO in a virtual machine
+    validations:
+      required: true
+  - type: dropdown
+    id: boot_mode
+    attributes:
+      label: Boot mode
+      options:
+        - UEFI
+        - BIOS (legacy)
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: Hardware
+      description: Computer or laptop model, CPU, and amount of RAM. For a virtual machine, name the hypervisor (QEMU/KVM, VirtualBox, or VMware) and its version.
+    validations:
+      required: true
+  - type: input
+    id: gpu
+    attributes:
+      label: Graphics card and driver
+      description: GPU model and the kernel driver in use. For example, `lspci -k` lists the driver for each device.
+    validations:
+      required: true
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected to happen instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the steps that lead to the problem, starting from a fresh boot or a fresh installation if possible.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs and diagnostic output
+      description: |
+        Paste the relevant output. For example, `journalctl -b -p warning --no-pager` lists warnings and errors from the current boot. For installer problems, include the Calamares session log, which is usually found at `~/.cache/calamares/session.log`.
+        Remove passwords, tokens, and other private information before posting.
+      render: shell
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and discussions and found no duplicate.
+          required: true
+        - label: I removed private information from the logs I pasted.
+          required: true

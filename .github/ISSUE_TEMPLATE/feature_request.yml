@@ -1,0 +1,51 @@
+name: Feature request
+description: Suggest an improvement or a new feature for ChoutesOS
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping to shape ChoutesOS. Please search [existing issues](https://github.com/ChoutesOS/choutesos/issues) and [Discussions](https://github.com/ChoutesOS/choutesos/discussions) first. If you are not sure that your idea is ready for a formal request, start a discussion.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Installer (Calamares)
+        - Boot (bootloader, Plymouth, login screen)
+        - Desktop (KDE Plasma, theme, panel)
+        - Gaming
+        - Default applications
+        - System settings and performance
+        - Package repository and updates
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or motivation
+      description: What are you trying to do, and what makes it difficult today?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: Describe what you would like ChoutesOS to do.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Describe other approaches or workarounds you have tried or thought about.
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and discussions and found no duplicate.
+          required: true
