@@ -35,7 +35,7 @@ ChoutesOS brings the speed and the rolling updates of Arch Linux together with a
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChoutesOS/.github/main/assets/features-dark.png">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ChoutesOS/.github/main/assets/features-light.png">
-  <img src="https://raw.githubusercontent.com/ChoutesOS/.github/main/assets/features-dark.png" alt="A desktop of its own; ready for games; Driver Manager; Software Update; updates you can undo; applications from Flathub" width="100%">
+  <img src="https://raw.githubusercontent.com/ChoutesOS/.github/main/assets/features-dark.png" alt="A desktop of its own; ready for games; Driver Manager; updates in the background; updates you can undo; the ChoutesOS App Store" width="100%">
 </picture>
 
 ## What is inside
@@ -47,8 +47,8 @@ ChoutesOS brings the speed and the rolling updates of Arch Linux together with a
 | **Kernel** | XanMod (x86-64-v2) by default, with the Arch Linux LTS kernel as a fallback |
 | **Installer** | Calamares, full screen, works offline; Wi-Fi and multimedia codecs are optional |
 | **Gaming** | Steam, Wine, Proton tools, GameMode, MangoHud, Gamescope, Faugus Launcher, Prism Launcher, Sober |
-| **Applications** | Bazaar with Flathub, Helium browser, Vesktop, Spotify, ZapZap, and the KDE applications |
-| **ChoutesOS tools** | Welcome, Driver Manager, Software Update, and About ChoutesOS |
+| **Applications** | The ChoutesOS App Store (Flathub and the AUR), Helium browser, Vesktop, Spotify, ZapZap, and the KDE applications |
+| **ChoutesOS tools** | Welcome, App Store, Driver Manager, and About ChoutesOS |
 | **Safety** | Btrfs snapshots before and after every update, restored with Btrfs Assistant |
 
 ## Built for games
@@ -72,7 +72,7 @@ UEFI or BIOS; Secure Boot must be disabled. A USB drive of 8 GB or more is neede
 
 ## Updates
 
-Installed systems stay current through the signed [ChoutesOS package repository](https://github.com/ChoutesOS/packages); a new image is never needed to get updates. Software Update checks ChoutesOS every day and Arch every 3 days, and tells you what every update changes.
+Installed systems stay current through the signed [ChoutesOS package repository](https://github.com/ChoutesOS/packages); a new image is never needed to get updates. The App Store runs in the background: it checks ChoutesOS and your applications at every start, tells you when updates or a new ChoutesOS version are ready, and installs everything with one click. A new ChoutesOS version arrives as a normal update; its number is the date of the release, for example 2026.11.06.
 
 ## Help and community
 
