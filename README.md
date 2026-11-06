@@ -51,6 +51,14 @@ ChoutesOS brings the speed and the rolling updates of Arch Linux together with a
 | **ChoutesOS tools** | Welcome, App Store, Driver Manager, and About ChoutesOS |
 | **Safety** | Btrfs snapshots before and after every update, restored with Btrfs Assistant |
 
+## The ChoutesOS App Store
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ChoutesOS/.github/main/assets/screenshots/app-store.png" alt="The ChoutesOS App Store" width="100%">
+</p>
+
+Applications and games from Flathub and the AUR, with their developers and screenshots. The App Store runs in the background, tells you when updates or a new version of ChoutesOS are ready, and installs everything with one click.
+
 ## Built for games
 
 <p align="center">
