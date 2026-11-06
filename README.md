@@ -5,7 +5,7 @@
 <h3 align="center">The Arch-based Linux distribution for gaming and everyday computing</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/status-coming%20soon-7C46F3?style=flat-square" alt="Status: coming soon">
+  <img src="https://img.shields.io/badge/status-released-3DBE7C?style=flat-square" alt="Status: released">
   <img src="https://img.shields.io/badge/based%20on-Arch%20Linux-1793D1?style=flat-square&logo=archlinux&logoColor=white" alt="Based on Arch Linux">
   <img src="https://img.shields.io/badge/desktop-KDE%20Plasma%206-1D99F3?style=flat-square&logo=kde&logoColor=white" alt="KDE Plasma 6">
   <img src="https://img.shields.io/badge/kernel-XanMod-5B18E5?style=flat-square&logo=linux&logoColor=white" alt="XanMod kernel">
@@ -23,8 +23,8 @@
 
 ChoutesOS brings the speed and the rolling updates of Arch Linux together with a polished KDE Plasma desktop of its own. Games, drivers, and applications are ready from the first start, and a full-screen installer sets everything up without an internet connection.
 
-> [!NOTE]
-> **ChoutesOS 2026.11.06 is coming soon.** The first release is in its final tests. When it is released, ChoutesOS is downloaded from [choutes.com](https://choutes.com).
+> [!TIP]
+> **ChoutesOS 2026.11.06 is out.** Download it from [choutes.com](https://choutes.com/download.html) and read the [release notes](https://github.com/ChoutesOS/choutesos/releases/tag/2026.11.06).
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/ChoutesOS/.github/main/assets/screenshots/desktop.png" alt="The ChoutesOS desktop with the start menu open" width="100%">
