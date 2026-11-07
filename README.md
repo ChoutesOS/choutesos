@@ -51,8 +51,8 @@ ChoutesOS brings the speed and the rolling updates of Arch Linux together with a
 | **Installer** | Calamares, full screen, works offline; Wi-Fi and multimedia codecs are optional |
 | **Gaming** | Steam, Wine, Proton tools, GameMode, MangoHud, Gamescope, Faugus Launcher, Prism Launcher, Sober |
 | **Applications** | The ChoutesOS Store (Flathub and the AUR), Helium browser, Vesktop, Spotify, ZapZap, GNOME Boxes, and the KDE applications |
-| **ChoutesOS tools** | Welcome, ChoutesOS Store, Driver Manager, and About ChoutesOS |
-| **Safety** | Btrfs snapshots before and after every update, restored with Btrfs Assistant; every new KDE Plasma version is tested before it is installed |
+| **ChoutesOS tools** | Welcome, ChoutesOS Store, Driver Manager, ChoutesOS Cleaner, and About ChoutesOS |
+| **Safety** | Btrfs snapshots before and after every update, restored with Btrfs Assistant; every new KDE Plasma version is tested before it is installed; ChoutesOS Cleaner keeps the storage clean once a week |
 
 ## The ChoutesOS Store
 
