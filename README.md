@@ -46,7 +46,7 @@ ChoutesOS brings the speed and the rolling updates of Arch Linux together with a
 | | |
 | --- | --- |
 | **Base** | Arch Linux, rolling release, with the signed ChoutesOS package repository |
-| **Desktop** | KDE Plasma 6 with the ChoutesOS Dark and Light themes, Bibata cursor, and Contour wallpapers |
+| **Desktop** | KDE Plasma 6 with the ChoutesOS Dark and Light themes, Bibata cursor, and Contour wallpapers; LXQt (X11) with the same look for older and low-end computers |
 | **Kernel** | XanMod (x86-64-v2) by default, with the Arch Linux LTS kernel as a fallback |
 | **Installer** | Calamares, full screen, works offline; Wi-Fi and multimedia codecs are optional |
 | **Gaming** | Steam, Wine, Proton tools, GameMode, MangoHud, Gamescope, Faugus Launcher, Prism Launcher, Sober |
