@@ -1,0 +1,43 @@
+name: Suggestion
+description: An idea for a new feature or an improvement of ChoutesOS
+title: "[Suggestion]: "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your idea. Search the [open issues](https://github.com/ChoutesOS/choutesos/issues) first: if it is already suggested, add your thoughts there.
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What should ChoutesOS do, or do differently?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it helps
+      description: What problem does it solve, and for whom?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Part of ChoutesOS
+      options:
+        - Installer
+        - Desktop, themes, lock or login screen
+        - ChoutesOS Store and updates
+        - Driver Manager and hardware
+        - Games
+        - Applications
+        - Website or wiki
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: more
+    attributes:
+      label: More details
+      description: Examples, pictures, or how other systems do it.

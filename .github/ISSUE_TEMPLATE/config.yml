@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and help
+    url: https://discord.gg/nYdsKv7Fra
+    about: Ask the ChoutesOS community on Discord.
+  - name: Wiki
+    url: https://wiki.choutes.com
+    about: Guides and answers to common questions.
+  - name: Security problem
+    url: https://github.com/ChoutesOS/.github/blob/main/SECURITY.md
+    about: Report security problems privately, not in an issue.

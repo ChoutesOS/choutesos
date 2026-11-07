@@ -1,0 +1,64 @@
+name: Bug report
+description: Something in ChoutesOS does not work as it should
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping to improve ChoutesOS. Search the [open issues](https://github.com/ChoutesOS/choutesos/issues) first: if the problem is already reported, add what you know there.
+        Security problems are reported privately, as described in the [security policy](https://github.com/ChoutesOS/.github/blob/main/SECURITY.md).
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open …
+        2. Choose …
+        3. …
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Part of ChoutesOS
+      options:
+        - Installer
+        - Desktop, themes, lock or login screen
+        - ChoutesOS Store and updates
+        - Driver Manager and hardware
+        - Games
+        - Applications
+        - Boot and performance
+        - Something else
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: ChoutesOS version
+      description: Shown in About ChoutesOS, for example 2026.11.07.
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: Computer
+      description: Model, processor, and graphics card.
+  - type: textarea
+    id: diag
+    attributes:
+      label: Report of choutesos-diag
+      description: Run `choutesos-diag` in Konsole and attach `choutesos-diag.txt` from your home folder (drag it here). For a failed update, paste the log from Copy Log in the ChoutesOS Store.
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Drag screenshots or photos of the screen here.
